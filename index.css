@@ -159,7 +159,7 @@ nav ul li a .aux {
 
 .main {
 	
-	width: 90%;
+	width: 80%;
 	max-width: 800px;
 	margin-bottom: 20px;
 	margin-left: auto;
@@ -167,12 +167,12 @@ nav ul li a .aux {
 }
 
 .slides{
-	width: 90%;
+	width: 80%;
 }
 
 .slides img{
 	margin-top: 100px;
-	width: 100%;
+	width: 80%;
 }
 
 .slidesjs-pagination {
