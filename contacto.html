@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>CONTACTO</title>
+	<link rel="stylesheet" type="text/css" href="contacto.css">
+</head>
+<body>
+
+
+  <header>
+
+    <div class="menu">
+      <nav class="menuPrincipal">
+        <ul>
+        	<li><a href="index.html"><span class="aux">PRINCIPAL</span>PRINCIPAL</a>
+          	</li>
+          <li><a href="paris.html"><span class="primero">FRANCIA</span>PARIS</a>
+            <ul>
+              <li><a href="paris.html#InformacionP">INFORMACION</a></li>
+              <li><a href="paris.html#TorreEiffel">TORRE EIFFEL</a></li>
+              <li><a href="paris.html#CamposEliseos">CAMPOS ELISEOS</a></li>
+            </ul>
+          </li>
+          <li><a href="roma.html"><span class="segundo">ITALIA</span>ROMA</a>
+            <ul>
+              <li><a href="roma.html#InformacionR">INFORMACION</a></li>
+              <li><a href="roma.html#Panteon">PANTEON</a></li>
+              <li><a href="roma.html#Coliseum">COLISEUM ROMANO</a></li>
+            </ul>
+          </li>
+          <li><a href="nuevayork.html"><span class="tercero">EEUU</span>NUEVA YORK</a>
+            <ul>
+              <li><a href="nuevayork.html#InformacionNY">INFORMACION</a></li>
+              <li><a href="nuevayork.html#EmpireState">EMPIRE STATE</a></li>
+              <li><a href="nuevayork.html#EstatuaLibertad">ESTATUA DE LA LIBERTAD</a></li>
+            </ul>
+          </li>
+          <li><a href="londres.html"><span class="cuarto">GRAN BRETAÑA</span>LONDRES</a>
+            <ul>
+              <li><a href="londres.html#InformacionL">INFORMACION</a></li>
+              <li><a href="londres.html#BigBen">BIG BEN</a></li>
+              <li><a href="londres.html#Greenwich">GREENWICH</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    </header>
+
+	<form class="contacto">
+		<div class="nombre"><label>Tu nombre:</label><input type="text" name=""></div>
+		<div class="email"><label>Tu email:</label><input type="text" name=""></div>
+		<div class="asunto"><label>Asunto:</label><input type="text" name=""></div>
+		<div class="mensaje"><label>Mensaje:</label></div>
+		<div class="message"><textarea rows="6"></textarea></div>
+		<div class="boton"><input type="button" onclick="validar()" value="Enviar"></div>
+	</form>
+
+	<script type="text/javascript">
+		function validar(){
+			var resultado = confirm("¿Desea enviar el mensaje?");
+
+			if(resultado) {
+				alert("Mensaje enviado.");
+			}
+			else {
+				alert("Mensaje eliminado.");
+			}
+		}
+	</script>
+</body>
+</html> 

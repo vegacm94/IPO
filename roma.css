@@ -1,0 +1,182 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: url("imagenes/roma.jpg");
+}
+
+header {
+    margin-top:10px; 
+    width: 100%;
+    height: 150px; 
+    overflow: hidden; 
+    position: relative; 
+}
+
+nav {
+    top:-20px; 
+    position: absolute; 
+    left:0; 
+    right:0;
+ 
+    margin:5px auto;
+    max-width:1000px;
+    width:90%;
+}
+
+nav ul {
+	list-style:none;
+}
+ 
+nav > ul {
+	display:table;
+	width:100%;
+	background:#000;
+	position:relative;
+}
+ 
+nav > ul li {
+	display:table-cell;
+}
+ 
+/*Sub-menu*/
+nav > ul > li:hover > ul {
+	display:block;
+	height:100%;
+}
+ 
+nav > ul > li > ul {
+	display:block;
+	position:absolute;
+	background:#000;
+	left:0;
+	right:0;
+	overflow:hidden;
+	height:0%;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+ 
+nav > ul li a {
+	color:#fff;
+	display:block;
+	line-height:20px;
+	padding:20px;
+	position: relative;
+	text-align:center;
+	text-decoration:none;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+ 
+nav > ul > li > ul > li a:hover {
+	background: #16A085;
+}
+ 
+nav > ul > li > a span {
+	background:#174459;
+	display:block;
+	height:100%;
+	width:100%;
+	left:0;
+	position:absolute;
+	top:-55px;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+ 
+nav > ul > li > a:hover > span {
+	top:0;
+}
+ 
+/*Colores*/
+nav ul li a .primero {
+	display: block;
+	line-height: 60px;
+	height:100%;
+	width:100%;
+	left:0;
+	position:absolute;
+	color: #fff;
+	background:#16A085;
+}
+ 
+nav ul li a .segundo {
+	display: block;
+	line-height: 60px;
+	height:100%;
+	width:100%;
+	left:0;
+	position:absolute;
+	color: #fff;
+	background:#E74C3C;
+}
+ 
+nav ul li a .tercero {
+	display: block;
+	line-height: 60px;
+	height:100%;
+	width:100%;
+	left:0;
+	position:absolute;
+	color: #fff;
+	background:#A569BD;
+	/*background-color: #52BE80;*/
+}
+ 
+nav ul li a .cuarto {
+	display: block;
+	line-height: 60px;
+	height:100%;
+	width:100%;
+	left:0;
+	position:absolute;
+	color: #fff;
+	background:#F39C12;
+}
+
+nav ul li a .aux {
+	display: block;
+	line-height: 60px;
+	height:100%;
+	width:100%;
+	left:0;
+	position:absolute;
+	color: #fff;
+	background:#006768;
+}
+
+.section {
+	background: #5D6D7E;
+	color: #fff;
+	text-align: center;
+	width: 100%;
+	max-width: 1000px;
+	margin: 20px auto;
+
+}
+
+.title_city {
+	font-family: 'Courier New', Courier, monospace;
+}
+
+.section_title {
+	font-family: 'Courier New', Courier, monospace;
+}
+
+.text {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
