@@ -173,8 +173,9 @@ nav ul li a .aux {
 }
 
 .slides img{
+	height: 200px;
 	margin-top: 500px;
-	width: 30%;
+	width: 80%;
 }
 
 .slidesjs-pagination {
