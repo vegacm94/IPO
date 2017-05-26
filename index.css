@@ -159,6 +159,8 @@ nav ul li a .aux {
 
 .container {
 	margin-left: 200px;
+	position: relative;
+	overflow: hidden;
 }
 
 .autor {
