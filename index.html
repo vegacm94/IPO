@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script type="text/javascript" src = " http://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <script type="text/javascript" src="jquery.slides.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <title>Index</title>
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <link rel="stylesheet" type="text/css" href="fonts.css">
+</head>
+<body>
+
+  <header>
+
+    <div class="menu">
+      <nav class="menuPrincipal">
+        <ul>
+          <li><a href="paris.html"><span class="primero">FRANCIA</span>PARIS</a>
+            <ul>
+              <li><a href="paris.html#InformacionP">INFORMACION</a></li>
+              <li><a href="paris.html#TorreEiffel">TORRE EIFFEL</a></li>
+              <li><a href="paris.html#CamposEliseos">CAMPOS ELISEOS</a></li>
+            </ul>
+          </li>
+          <li><a href="roma.html"><span class="segundo">ITALIA</span>ROMA</a>
+            <ul>
+              <li><a href="roma.html#InformacionR">INFORMACION</a></li>
+              <li><a href="roma.html#Panteon">PANTEON</a></li>
+              <li><a href="roma.html#Coliseum">COLISEUM ROMANO</a></li>
+            </ul>
+          </li>
+          <li><a href="nuevayork.html"><span class="tercero">EEUU</span>NUEVA YORK</a>
+            <ul>
+              <li><a href="nuevayork.html#InformacionNY">INFORMACION</a></li>
+              <li><a href="nuevayork.html#EmpireState">EMPIRE STATE</a></li>
+              <li><a href="nuevayork.html#EstatuaLibertad">ESTATUA DE LA LIBERTAD</a></li>
+            </ul>
+          </li>
+          <li><a href="londres.html"><span class="cuarto">GRAN BRETAÑA</span>LONDRES</a>
+            <ul>
+              <li><a href="londres.html#InformacionL">INFORMACION</a></li>
+              <li><a href="londres.html#BigBen">BIG BEN</a></li>
+              <li><a href="londres.html#Greenwich">GREENWICH</a></li>
+            </ul>
+          </li>
+          <li><a href="contacto.html"><span class="aux">CONTACTO</span>CONTACTO</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+  </header>
+
+	<div class="contenedor">
+		<br>
+		<div class="col-md-12">
+			<div id="index1_1" class="index slide" data-ride="index1">
+				<!--Indicadores-->
+				<ol class="index_indicadores">
+					<li data-target="#index1_1" data-slide-to="0" class="active"></li>
+					<li data-target="#index1_1" data-slide-to="1"></li>
+					<li data-target="#index1_1" data-slide-to="2"></li>
+					<li data-target="#index1_1" data-slide-to="3"></li>
+
+				</ol>
+
+				<!--Contenedor de los slide-->
+				<div class="index-inner" role="listbox">
+					<div class="item active">
+						<img src="imagenes/paris.jpg" class="img-responsive" alt="">
+						<div class="index-caption">
+							<h3>Este es nuestro slide #1</h3>
+						</div>
+					</div>
+					<div class="item">
+						<img src="imagenes/roma.jpg" class="img-responsive" alt="">
+						<div class="index-caption">
+							<h3>Este es nuestro slide #2</h3>
+						</div>
+					<div class="item">
+						<img src="imagenes/newyork.jpg" class="img-responsive" alt="">
+						<div class="index-caption">
+							<h3>Este es nuestro slide #3</h3>
+						</div>
+						<div class="item">
+						<img src="imagenes/londres.jpg" class="img-responsive" alt="">
+						<div class="index-caption">
+							<h3>Este es nuestro slide #4</h3>
+						</div>
+				</div>
+				<!-- Controles -->
+				<a href="#index1_1" class="left index-control" role="button" data-slide="prev">
+					  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    					<span class="sr-only">Anterior</span>
+  				</a>
+  				<a href="#index1_1" class="right carousel-control" href="#myCarousel" data-slide="next">
+   					 <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    				<span class="sr-only">Siguiente</span>
+  				</a>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
