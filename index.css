@@ -172,6 +172,8 @@ nav ul li a .aux {
 
 .slides img{
 	width: 100%;
+	overflow: hidden; 
+    position: relative; 
 }
 
 .slidesjs-pagination {
